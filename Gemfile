@@ -21,3 +21,4 @@ gem "launchy", ">= 2.0.5", :group => :test
 gem "devise", ">= 1.5.0"
 gem "twitter-bootstrap-rails"
 gem "rails-footnotes", ">= 3.7", :group => :development
+gem "pg", ">=0.1"

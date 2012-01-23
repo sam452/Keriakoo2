@@ -1,10 +1,8 @@
 h1. Keriakoo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
 h2. More Information
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+This is my starter app for farmers.
 
 h2. Required Gems
 
@@ -19,23 +17,6 @@ To use this application, you will need:
 * The Ruby language (version 1.8.7 or 1.9.2)
 * Rails (version 3.0.4 or newer)
 
-h2. Installing the Application
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Getting Started
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Documentation and Support
-
-This is the only documentation.
-
-h4. Issues
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Similar Projects
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
