@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120118193537) do
+ActiveRecord::Schema.define(:version => 20120123171814) do
+
+  create_table "reference_units", :force => true do |t|
+    t.string   "commodity"
+    t.string   "wholesale_unit"
+    t.string   "retail_unit"
+    t.string   "receipt_unit"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false

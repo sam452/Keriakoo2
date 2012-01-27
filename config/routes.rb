@@ -5,6 +5,7 @@ Keriakoo::Application.routes.draw do
 
   devise_for :users
   resources :users, :only => :show
+  resources :reference_units
 
 
   # The priority is based upon order of creation:

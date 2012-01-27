@@ -16,6 +16,9 @@ module NavigationHelpers
 
     when /the sign in page/
       '/users/sign_in'
+      
+    when /the new Reference Units page/
+      '/reference_units/new'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
