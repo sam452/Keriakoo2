@@ -15,7 +15,7 @@ end
 
 When /^I go to the Reference Commodities home page$/ do
   visit('/reference_commodities/index')
-   save_and_open_page
+   #save_and_open_page
  
 end
 

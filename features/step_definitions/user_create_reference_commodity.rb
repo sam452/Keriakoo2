@@ -9,7 +9,7 @@ end
 
 When /^I fill in this data:$/ do |table|
   # table is a Cucumber::Ast::Table
-    @reference_commodity = ReferenceCommodity.create!(table.rows_hash)
+    @reference_commodities = ReferenceCommodity.create!(table.rows_hash)
 end
 
 Then /^it should create a new Reference Commodity$/ do

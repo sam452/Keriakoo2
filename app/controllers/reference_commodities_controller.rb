@@ -23,5 +23,9 @@ class ReferenceCommoditiesController < ApplicationController
   end
   end
 
+  def show
+	 @reference_commodities = ReferenceCommodity.find(params[:id])
+  end
+
 
 end
