@@ -11,7 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120123171814) do
+ActiveRecord::Schema.define(:version => 20120128233410) do
+
+  create_table "reference_commodities", :force => true do |t|
+    t.string   "type"
+    t.string   "commodity"
+    t.string   "language"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "reference_units", :force => true do |t|
     t.string   "commodity"
@@ -20,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20120123171814) do
     t.string   "receipt_unit"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "language"
   end
 
   create_table "users", :force => true do |t|

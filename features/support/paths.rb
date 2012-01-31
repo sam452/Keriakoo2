@@ -20,6 +20,12 @@ module NavigationHelpers
     when /the new Reference Units page/
       '/reference_units/new'
 
+    when /the new Reference Commodity page/
+      '/reference_commodities/new'
+      
+      when /the Reference Commodities home page/ 
+       '/reference_commodities/index'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

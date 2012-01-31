@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reference_commodities.each do |ref| %>
+  <tr>
+    <td><%= link_to 'Show', opening %></td>
+    <td><%= ref.id %></td>
+    <td><%= ref.type %></td>
+    <td><%= ref.commodity %></td>
+    <td><%= ref.language %></td>
+    <td><%= link_to 'Edit', edit_reference_commodities_path(ref) %></td>
+    <td><%= link_to 'Destroy', opening, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>

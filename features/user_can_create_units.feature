@@ -12,7 +12,7 @@ Scenario: Adding Reference Units
 	And I fill in the following:
 	| commodity | "corn" |
 	| language | "en" |
-	| wholesale unit | "xton" |
-	| retail unit | "xliter" |
-	| receipt unit | "dollar" |
+	| wholesale_unit | "xton" |
+	| retail_unit | "xliter" |
+	| receipt_unit | "dollar" |
 	Then it should create a new Reference Unit

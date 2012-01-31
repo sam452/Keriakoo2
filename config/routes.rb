@@ -1,4 +1,6 @@
 Keriakoo::Application.routes.draw do
+  get "reference_commodity/new"
+
   #get \"users\/show\"
 
   root :to => "home#index"
@@ -6,6 +8,7 @@ Keriakoo::Application.routes.draw do
   devise_for :users
   resources :users, :only => :show
   resources :reference_units
+  resources :reference_commodities
 
 
   # The priority is based upon order of creation:

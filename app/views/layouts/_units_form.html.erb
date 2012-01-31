@@ -1,0 +1,24 @@
+<%= form_for (@reference_unit)  do |f| %>
+  <div class="field">
+    <%= f.label :commodity %><br />
+    <%= f.text_field :commodity %>
+  </div>
+  <div class="field">
+    <%= f.label :language, "What language?" %><br />
+    <%= f.text_field :language %>
+  </div>
+  <div class="field">
+    <%= f.label :wholesale_unit %><br />
+    <%= f.text_field :wholesale_unit %>
+  </div>
+    <div class="field">
+    <%= f.label :retail_unit %><br />
+    <%= f.text_field :retail_unit %>
+  </div>
+ <div class="field">
+    <%= f.label :receipt_unit %><br />
+    <%= f.text_field :receipt_unit %>
+ <div class="actions">
+    <%= f.submit  %>
+  </div>
+<% end %>
